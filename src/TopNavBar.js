@@ -42,9 +42,9 @@ const TopNavBar = ({
           src={Logo}
           alt="Logo"
           className="d-inline-block align-top"
-          style={{ height: "60px" }}
+          style={{ height: "40px", marginRight: "20px"}}
         />{' '}
-        Product Catalog App
+        NVDC Product Page
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
@@ -53,6 +53,7 @@ const TopNavBar = ({
             <Button
               variant="warning"
               className="mb-2 me-2 btn-sm"
+              style={{ marginLeft: "20px"}}
               onClick={() => filterCategory(tag)}
               key={tag}
             >

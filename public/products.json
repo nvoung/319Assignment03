@@ -2,34 +2,34 @@
   {
     "id": 1,
     "title": "G-loomis Spinning Rod",
-    "price": 200,
+    "price": 200.00,
     "category": "Fishing Rods",
     "image": "../photos/Gloomis.avif",
-    "rating": { "rate": 3.9, "count": 120 }
+    "rating": { "rate": 3.9, "count": 2586 }
   },
   {
     "id": 2,
     "title": "Jhonny Morris Carbon Lite Casting Rod",
-    "price": 200,
+    "price": 190.00,
     "category": "Fishing Rods",
     "image": "../photos/JhonnyMorrisCL.avif",
-    "rating": { "rate": 3.9, "count": 120 }
+    "rating": { "rate": 4.7, "count": 3321 }
   },
   {
     "id": 3,
     "title": "StCroix-DG Spinning Rod",
-    "price": 200,
+    "price": 220.00,
     "category": "Fishing Rods",
     "image": "../photos/StCroixDG.avif",
-    "rating": { "rate": 3.9, "count": 120 }
+    "rating": { "rate": 4.9, "count": 5327 }
   },
   {
     "id": 4,
-    "title": "StCroix-DG Spinning Rod",
-    "price": 200,
+    "title": "UglyStickGX2 Spinning Rod",
+    "price": 65.00,
     "category": "Fishing Rods",
     "image": "../photos/UglyStickGX2.avif",
-    "rating": { "rate": 3.9, "count": 120 }
+    "rating": { "rate": 4.4, "count": 1181 }
   },
   {
     "id": 5,
@@ -37,7 +37,7 @@
     "price": 12.99,
     "category": "Fishing Lures",
     "image": "../photos/BerkleyChoppo.avif",
-    "rating": { "rate": 3.9, "count": 120 }
+    "rating": { "rate": 4.1, "count": 4756 }
   },
   {
     "id": 6,
@@ -45,7 +45,7 @@
     "price": 7.99,
     "category": "Fishing Lures",
     "image": "../photos/KVDSpinner.avif",
-    "rating": { "rate": 3.9, "count": 120 }
+    "rating": { "rate": 4.6, "count": 5121 }
   },
   {
     "id": 7,
@@ -53,7 +53,7 @@
     "price": 9.99,
     "category": "Fishing Lures",
     "image": "../photos/TopWaterFrog.avif",
-    "rating": { "rate": 3.9, "count": 120 }
+    "rating": { "rate": 4.5, "count": 3429 }
   },
   {
     "id": 8,
@@ -61,7 +61,7 @@
     "price": 6.99,
     "category": "Fishing Lures",
     "image": "../photos/YumDinger.avif",
-    "rating": { "rate": 3.9, "count": 120 }
+    "rating": { "rate": 5.0, "count": 7420 }
   },
   {
     "id": 9,
@@ -69,7 +69,7 @@
     "price": 125000.0,
     "category": "Boats",
     "image": "../photos/Cobia.jpg",
-    "rating": { "rate": 3.9, "count": 120 }
+    "rating": { "rate": 4.5, "count": 1220 }
   },
   {
     "id": 10,
@@ -77,7 +77,7 @@
     "price": 225000.0,
     "category": "Boats",
     "image": "../photos/mako.jpg",
-    "rating": { "rate": 3.9, "count": 120 }
+    "rating": { "rate": 4.8, "count": 623 }
   },
   {
     "id": 11,
@@ -85,7 +85,7 @@
     "price": 45000.0,
     "category": "Boats",
     "image": "../photos/Robalo.jpg",
-    "rating": { "rate": 3.9, "count": 120 }
+    "rating": { "rate": 4.7, "count": 177 }
   },
   {
     "id": 12,
@@ -93,7 +93,7 @@
     "price": 248000.0,
     "category": "Boats",
     "image": "../photos/sportsman.jpg",
-    "rating": { "rate": 3.9, "count": 120 }
+    "rating": { "rate": 4.9, "count": 303 }
   },
   {
     "id": 13,
@@ -101,7 +101,7 @@
     "price": 13000.0,
     "category": "JetSkis",
     "image": "../photos/Kawasaki.jpg",
-    "rating": { "rate": 3.9, "count": 120 }
+    "rating": { "rate": 4.8, "count": 1740 }
   },
   {
     "id": 14,
@@ -109,7 +109,7 @@
     "price": 8000.0,
     "category": "JetSkis",
     "image": "../photos/polaris.jpg",
-    "rating": { "rate": 3.9, "count": 120 }
+    "rating": { "rate": 3.9, "count": 700 }
   },
   {
     "id": 15,
@@ -117,7 +117,7 @@
     "price": 9000.0,
     "category": "JetSkis",
     "image": "../photos/Sea-doo.jpg",
-    "rating": { "rate": 3.9, "count": 120 }
+    "rating": { "rate": 4.1, "count": 620 }
   },
   {
     "id": 16,
@@ -125,6 +125,6 @@
     "price": 7750.0,
     "category": "JetSkis",
     "image": "../photos/yamaha.jpg",
-    "rating": { "rate": 3.9, "count": 120 }
+    "rating": { "rate": 4.9, "count": 1202 }
   }
 ]
