@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Button, InputGroup, FormControl } from "react-bootstrap";
-import LeftNavBar from "./LeftNavBar";
+import TopNavBar from "./TopNavBar";
 
 function ShowProducts() {
   const [catalog, setCatalog] = useState([]);
@@ -81,10 +81,10 @@ function ShowProducts() {
   ));
 
   return (
-    <div className="d-flex" style={{ height: "100vh" }}>
+    <div className="d-flex flex-column" style={{ height: "100vh" }}>
       {/* Left Navigation Bar */}
-      <div style={{ width: "350px" }}>
-        <LeftNavBar
+      <div style={{ width: "100%" }}>
+        <TopNavBar
           catalog={catalog}
           setCatalog={setCatalog}
           filteredCatalog={filteredCatalog}
