@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "title": "G-loomis Spinning Rod",
+    "price": 200,
+    "category": "Fishing Rods",
+    "image": "../photos/Gloomis.avif",
+    "rating": { "rate": 3.9, "count": 120 }
+  },
+  {
+    "id": 2,
+    "title": "Jhonny Morris Carbon Lite Casting Rod",
+    "price": 200,
+    "category": "Fishing Rods",
+    "image": "../photos/JhonnyMorrisCL.avif",
+    "rating": { "rate": 3.9, "count": 120 }
+  },
+  {
+    "id": 3,
+    "title": "StCroix-DG Spinning Rod",
+    "price": 200,
+    "category": "Fishing Rods",
+    "image": "../photos/StCroixDG.avif",
+    "rating": { "rate": 3.9, "count": 120 }
+  },
+  {
+    "id": 4,
+    "title": "StCroix-DG Spinning Rod",
+    "price": 200,
+    "category": "Fishing Rods",
+    "image": "../photos/UglyStickGX2.avif",
+    "rating": { "rate": 3.9, "count": 120 }
+  },
+  {
+    "id": 5,
+    "title": "Berkley Choppo",
+    "price": 12.99,
+    "category": "Fishing Lures",
+    "image": "../photos/BerkleyChoppo.avif",
+    "rating": { "rate": 3.9, "count": 120 }
+  },
+  {
+    "id": 6,
+    "title": "KVD Spinner",
+    "price": 7.99,
+    "category": "Fishing Lures",
+    "image": "../photos/KVDSpinner.avif",
+    "rating": { "rate": 3.9, "count": 120 }
+  },
+  {
+    "id": 7,
+    "title": "Booyah Pad Crasher",
+    "price": 9.99,
+    "category": "Fishing Lures",
+    "image": "../photos/TopWaterFrog.avif",
+    "rating": { "rate": 3.9, "count": 120 }
+  },
+  {
+    "id": 8,
+    "title": "Yum Dinger 12PK",
+    "price": 6.99,
+    "category": "Fishing Lures",
+    "image": "../photos/YumDinger.avif",
+    "rating": { "rate": 3.9, "count": 120 }
+  },
+  {
+    "id": 9,
+    "title": "Cobia: Model 262 CC",
+    "price": 125000.0,
+    "category": "Boats",
+    "image": "../photos/Cobia.jpg",
+    "rating": { "rate": 3.9, "count": 120 }
+  },
+  {
+    "id": 10,
+    "title": "Mako: Model 334 CC",
+    "price": 225000.0,
+    "category": "Boats",
+    "image": "../photos/mako.jpg",
+    "rating": { "rate": 3.9, "count": 120 }
+  },
+  {
+    "id": 11,
+    "title": "Robalo: Model R200",
+    "price": 45000.0,
+    "category": "Boats",
+    "image": "../photos/Robalo.jpg",
+    "rating": { "rate": 3.9, "count": 120 }
+  },
+  {
+    "id": 12,
+    "title": "Sportsman: Model 282",
+    "price": 248000.0,
+    "category": "Boats",
+    "image": "../photos/sportsman.jpg",
+    "rating": { "rate": 3.9, "count": 120 }
+  },
+  {
+    "id": 13,
+    "title": "Kawasaki: Model Jet Ski Ultra 310",
+    "price": 13000.0,
+    "category": "JetSkis",
+    "image": "../photos/Kawasaki.jpg",
+    "rating": { "rate": 3.9, "count": 120 }
+  },
+  {
+    "id": 14,
+    "title": "Polaris: Model SLT 750",
+    "price": 8000.0,
+    "category": "JetSkis",
+    "image": "../photos/polaris.jpg",
+    "rating": { "rate": 3.9, "count": 120 }
+  },
+  {
+    "id": 15,
+    "title": "Sea-doo: Model RXT-X-260",
+    "price": 9000.0,
+    "category": "JetSkis",
+    "image": "../photos/Sea-doo.jpg",
+    "rating": { "rate": 3.9, "count": 120 }
+  },
+  {
+    "id": 16,
+    "title": "Yamaha: Model VX Cruiser",
+    "price": 7750.0,
+    "category": "JetSkis",
+    "image": "../photos/yamaha.jpg",
+    "rating": { "rate": 3.9, "count": 120 }
+  }
+]
