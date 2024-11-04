@@ -29,11 +29,15 @@ function CartCheckout() {
     // update hooks
     // setCart(data);
     // setCartTotal(data);
+
+		navigate('/purchase', {state:{cart, cartTotal, fullName: data.firstName + " " + data.lastName, cardNumber: data.creditCard, email: data.email}});
   };
 
   const handleBack=()=>{
     navigate('/', {state:{cart, cartTotal}});
   };
+
+
 
   return (
 
