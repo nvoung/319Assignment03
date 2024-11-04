@@ -2,6 +2,15 @@ import React, { useState, useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Button, InputGroup, FormControl } from "react-bootstrap";
 import TopNavBar from "./TopNavBar";
+import {useForm} from 'react-hook-form';
+import {
+	BrowserRouter as Router,
+	Route,
+	Routes,
+	useNavigate,
+	Link,
+} from 'react-router-dom';
+import CartCheckout from './CartCheckout';
 
 function ShowProducts() {
   const [catalog, setCatalog] = useState([]);
@@ -9,6 +18,7 @@ function ShowProducts() {
   const [categories, setCategories] = useState([]);
   const [cart, setCart] = useState([]);
   const [cartTotal, setCartTotal] = useState(0);
+  // const navigate = useNavigate();
 
   useEffect(() => {
     const fetchData = async () => {
@@ -47,14 +57,17 @@ function ShowProducts() {
     total();
   }, [cart]);
 
-  const addToCart = (el) => {
-    setCart([...cart, el]);
+  const addToCart = (product) => {
+    setCart([...cart, product]);
   };
+  // const handleCheckout=()=>{
+  //   navigate('/checkout', {state:{cart, cartTotal}});
+  // };
 
-  const removeFromCart = (el) => {
+  const removeFromCart = (product) => {
     let itemFound = false;
     const updatedCart = cart.filter((cartItem) => {
-      if (cartItem.id === el.id && !itemFound) {
+      if (cartItem.id === product.id && !itemFound) {
         itemFound = true;
         return false;
       }
@@ -70,13 +83,13 @@ function ShowProducts() {
     return hmot.length;
   };
 
-  const cartItems = cart.map((el, index) => (
+  const cartItems = cart.map((product, index) => (
     <div key={index} className="d-flex justify-content-between">
-      <img className="img-fluid" src={el.image} width={50} alt={el.title} />
-      <div>{el.title}</div>
-      <div>${el.price}</div>
-      <Button variant="light" onClick={() => removeFromCart(el)}>-</Button>
-      <Button variant="light" onClick={() => addToCart(el)}>+</Button>
+      <img className="img-fluid" src={product.image} width={50} alt={product.title} />
+      <div>{product.title}</div>
+      <div>${product.price}</div>
+      <Button variant="light" onClick={() => removeFromCart(product)}>-</Button>
+      <Button variant="light" onClick={() => addToCart(product)}>+</Button>
     </div>
   ));
 
@@ -114,6 +127,7 @@ function ShowProducts() {
                     {product.rating.count} reviews)
                   </p>
                   <div className="d-flex justify-content-between align-items-center">
+                  {/* <Button onClick={()=>addToCart(product)}>Add to Cart</Button> */}
                     <Button variant="light" onClick={() => removeFromCart(product)}>
                       -
                     </Button>
@@ -132,6 +146,19 @@ function ShowProducts() {
           <h2>Cart Summary</h2>
           <div>{cartItems}</div>
           <h3>Total: ${cartTotal.toFixed(2)}</h3>
+          {/* <Button onClick={handleCheckout}>Proceed to Checkout</Button>
+          <Router>
+            <Routes>
+              <Route path='/' element={<ShowProducts cart={cart} cartTotal={cartTotal} addToCart={addToCart} />}/>
+              <Route path="/checkout" element={<CartCheckout cart={cart} cartTotal={cartTotal} />} />
+            </Routes>
+          </Router>
+         <CartCheckout
+         cart={cart}
+         setCart={setCart}
+          cartTotal={cartTotal}
+          setCartTotal={setCartTotal}
+         /> */}
         </div>
       </div>
     </div>
