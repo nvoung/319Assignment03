@@ -18,7 +18,7 @@ function ShowProducts() {
   const [categories, setCategories] = useState([]);
   const [cart, setCart] = useState([]);
   const [cartTotal, setCartTotal] = useState(0);
-  // const navigate = useNavigate();
+  const navigate = useNavigate();
 
   useEffect(() => {
     const fetchData = async () => {
@@ -60,9 +60,10 @@ function ShowProducts() {
   const addToCart = (product) => {
     setCart([...cart, product]);
   };
-  // const handleCheckout=()=>{
-  //   navigate('/checkout', {state:{cart, cartTotal}});
-  // };
+  
+  const handleCheckout=()=>{
+    navigate('/checkout', {state:{cart, cartTotal}});
+  };
 
   const removeFromCart = (product) => {
     let itemFound = false;
@@ -146,14 +147,14 @@ function ShowProducts() {
           <h2>Cart Summary</h2>
           <div>{cartItems}</div>
           <h3>Total: ${cartTotal.toFixed(2)}</h3>
-          {/* <Button onClick={handleCheckout}>Proceed to Checkout</Button>
-          <Router>
-            <Routes>
+          <Button onClick={handleCheckout}>Proceed to Checkout</Button>
+            {/* <Routes>
+
               <Route path='/' element={<ShowProducts cart={cart} cartTotal={cartTotal} addToCart={addToCart} />}/>
               <Route path="/checkout" element={<CartCheckout cart={cart} cartTotal={cartTotal} />} />
-            </Routes>
-          </Router>
-         <CartCheckout
+
+            </Routes> */}
+         {/* <CartCheckout
          cart={cart}
          setCart={setCart}
           cartTotal={cartTotal}

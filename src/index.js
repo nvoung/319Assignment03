@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import ReactDOM from "react-dom/client";
 import "bootstrap/dist/css/bootstrap.min.css";
+import RoutingApp from "./RoutingApp";
 import ShowProducts from "./App";
 import CartCheckout from './CartCheckout'
 import {
@@ -14,8 +15,7 @@ import {
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <div>
-    <ShowProducts/>
-    <CartCheckout/>
-  </div>
+  <Router>
+    <RoutingApp/>
+  </Router>
 );
